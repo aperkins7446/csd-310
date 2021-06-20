@@ -1,0 +1,22 @@
+{
+    "student_id": 12345,
+    "first_name": "Angela",
+    "last_name": "Perkins",
+    "enrollment": [
+        {
+            "term": "Fall 2020",
+            "gpa": 4.0,
+            "start_date": "9/1/2020",
+            "end_date" : "12/1/2020",
+            "course": [
+                {
+                    "course_id": 123,
+                    "description": "Math 1",
+                    "instructor": "Professor Smith",
+                    "grade": "A"
+                }
+            ]
+        }
+    ]
+    
+}

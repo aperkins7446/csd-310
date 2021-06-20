@@ -1,0 +1,78 @@
+perkins = {
+    "student_id": "93612",
+    "first_name": "Angela",
+    "last_name": "Perkins",
+    "student_enroll":[
+        {
+            "term": "Spring2021",
+            "gpa": "4.0"
+        },
+        {
+            "term": "Summer2021",
+            "gpa": "4.0"
+        }
+    ],
+    "student_course":[
+        {
+            "course_id": "Comp123",
+            "term": "Spring2021",
+            "grade": "A"
+        },
+        {
+            "course_id": "Data456",
+            "term": "Spring2021",
+            "grade": "A"
+        },
+        {
+            "course_id": "Math123",
+            "term": "Summer2021",
+            "grade": "A"
+        },
+        {
+            "course_id": "Science456",
+            "term": "Summer2021",
+            "grade": "A"
+        }
+    ]
+}
+
+enrollment1 = {
+    "enrollment":[
+        {
+            "term": "Spring2021",
+            "start_date": "3/1/2021",
+            "end_date": "5/1/2021"  
+        },
+        {
+            "term": "Summer2021",
+            "start_date": "6/1/2021",
+            "end_date": "8/1/2021"
+        }
+    ]
+  
+}
+
+course1 = {
+    "courses":[
+        {
+            "course_id": "Comp123",
+            "description": "Entry computer science",
+            "instructor": "Matthew Hodge"
+        },
+        {
+            "course_id": "Data456",
+            "description": "Intro to data",
+            "instructor": "Sue Sampson"
+        },
+        {
+            "course_id": "Math123",
+            "description": "Math refresher course",
+            "instructor": "Doug Pool"
+        },
+        {
+            "course_id": "Science456",
+            "description": "Applied natural science",
+            "instructor": "Niki Frye"
+        }
+    ]
+}
