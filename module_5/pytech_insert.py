@@ -1,4 +1,8 @@
-#important pymongo and MongoClient
+
+#Angela Perkins
+#Module 5_3
+
+#import pymongo and MongoClient
 import pymongo
 from pymongo import MongoClient
 
