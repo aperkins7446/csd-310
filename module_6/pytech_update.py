@@ -15,7 +15,7 @@ student_list = students.find({})
 print("\n  -- All student documents returned with find() query --")
 for doc in student_list:
 #display information 
-   print("  Student ID: " + doc["student_id"] + "\n  First Name: " + doc["first_name"] + "\n  Last Name: " + doc["last_name"] + "\n")
+   print(" Student ID: " + doc["student_id"] + "\n  First Name: " + doc["first_name"] + "\n  Last Name: " + doc["last_name"] + "\n")
 
 #update a student
 result = students.update_one({"student_id": "1007"}, {"$set": {"last_name": "Hodge"}})
