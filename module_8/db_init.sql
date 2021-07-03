@@ -2,7 +2,7 @@
 DROP USER IF EXISTS 'pysports_user'@'localhost';
 
 --crete pysports_user and grant them all privileges to the pysports database
-CREATE USER 'pysports_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'MySQL8IsGreat!';
+CREATE USER 'pysports_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Angel@84';
 
 --drop tables if they are present
 DROP TABLE IF EXISTS player;
