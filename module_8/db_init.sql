@@ -2,6 +2,8 @@ DROP USER IF EXISTS 'pysports_user'@'localhost';
 
 CREATE USER 'pysports_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Angel@84';
 
+GRANT ALL PRIVILEGES ON pysports.* TO'pysports_user'@'localhost';
+
 DROP TABLE IF EXISTS player;
 DROP TABLE IF EXISTS team;
 
