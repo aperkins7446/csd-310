@@ -27,7 +27,7 @@ try:
     players = cursor.fetchall()
     print("\n --DISPLAYING PLAYER RECORDS--")
     for player in players:
-        print(" Player ID: {} \n First name: {} \n Last name {}\n Team ID: {}\n".format(player[0], player[1], player[2], player[3]))
+        print(" Player ID: {} \n First name: {} \n Last name {}\n Team Name: {}\n".format(player[0], player[1], player[2], player[3]))
     
     input("\n\n  Press any key to continue.")
 
